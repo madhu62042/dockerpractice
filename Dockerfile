@@ -1,8 +1,8 @@
 FROM amazoncorretto:11
 
-COPY target/docker-app.jar  /usr/app
+COPY target/docker-app.jar  /usr/app/
 
-WORKDIR /usr/app
+WORKDIR /usr/app/
 
 EXPOSE 8080
 
