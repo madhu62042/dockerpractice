@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM amazoncorretto:11
 
 COPY target/docker-app.jar  /usr/app
 
